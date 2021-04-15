@@ -343,19 +343,19 @@ a, span {
 }
 
 
-.main-container footer .footer .list .menu {
+.main-container footer .footer .list .footer-menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.main-container footer .footer .list .menu .website {
+.main-container footer .footer .list .footer-menu .website {
     padding: 42px 62px 0 100px;
     display: inherit;
     background-color: #eeecec;
 }
-.main-container footer .footer .list .menu .website img {
+.main-container footer .footer .list .footer-menu .website img {
     margin-bottom: 30px;
 }
-.main-container footer .footer .list .menu .website a {
+.main-container footer .footer .list .footer-menu .website a {
     text-decoration: none;
     display: block;
     width: 20px;
@@ -364,27 +364,27 @@ a, span {
     border-radius: 50%;
     position: relative;
 }
-.main-container footer .footer .list .menu .website span {
+.main-container footer .footer .list .footer-menu .website span {
     margin-top: 20px;
 }
-.main-container footer .footer .list .menu .website a span {
+.main-container footer .footer .list .footer-menu .website a span {
     margin-left: 33px;
     color: #000;
 }
-.main-container footer .footer .list .menu .website a i {
+.main-container footer .footer .list .footer-menu .website a i {
     color: #f8f8f8;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.main-container footer .footer .list .menu .website span a.active {
+.main-container footer .footer .list .footer-menu .website span a.active {
     color: #ff4f29;
     background-color: #eeecec;
     border-radius: 0;
     display: inline;
 }
-.main-container footer .footer .list .menu .newsletter {
+.main-container footer .footer .list .footer-menu .newsletter {
     padding: 45px 45px 0 45px;
     text-align: center;
     height: 260px;
@@ -393,21 +393,21 @@ a, span {
 
 
 
-.main-container footer .footer .list .menu .newsletter h4 {
+.main-container footer .footer .list .footer-menu .newsletter h4 {
     color: #ff4f29;
     margin-bottom: 30px;
 }
-.main-container footer .footer .list .menu .newsletter p {
+.main-container footer .footer .list .footer-menu .newsletter p {
     margin-bottom: 35px;
 }
-.main-container footer .footer .list .menu .newsletter h4 span {
+.main-container footer .footer .list .footer-menu .newsletter h4 span {
     color: #000;
     font-size: 23px;
 }
-.main-container footer .footer .list .menu .newsletter .search {
+.main-container footer .footer .list .footer-menu .newsletter .search {
     position: relative;
 }
-.main-container footer .footer .list .menu .newsletter .search input {
+.main-container footer .footer .list .footer-menu .newsletter .search input {
     width: 250px;
     height: 40px;
     outline: none;
@@ -415,7 +415,7 @@ a, span {
     background-color: #eaeaea;
     padding: 0 20px;
 }
-.main-container footer .footer .list .menu .newsletter .search .next {
+.main-container footer .footer .list .footer-menu .newsletter .search .next {
     position: absolute;
     width: 7px;
     height: 10px;
@@ -426,24 +426,24 @@ a, span {
 
 
 
-.main-container footer .footer .list .menu .menu-list {
+.main-container footer .footer .list .footer-menu .menu-list {
     padding: 46px 100px 0 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #eeecec;
 }
-.main-container footer .footer .list .menu .menu-list ul li {
+.main-container footer .footer .list .footer-menu .menu-list ul li {
     list-style: none;
 }
-.main-container footer .footer .list .menu .menu-list ul li a {
+.main-container footer .footer .list .footer-menu .menu-list ul li a {
     text-decoration: none;
     color: #000;
     line-height: 20px;
 }
-.main-container footer .footer .list .menu .menu-list ul li:first-child {
+.main-container footer .footer .list .footer-menu .menu-list ul h6 {
     font-weight: bold;
 }
-.main-container footer .footer .list .menu .menu-list ul li a.active {
+.main-container footer .footer .list .footer-menu .menu-list ul li a.active {
     color: #fe6645;
 }
 
